@@ -32,7 +32,6 @@ export default defineNuxtConfig({
 			'name': 'Kishindo',
 			'legalName': 'SERVICIOS DE ARTES JAPONESES VIOLETA CERDA DIAZ E.I.R.L.',
 			'url': 'https://kishindo.cl',
-			'description': 'Karate, Kendo y Reiki en Concepción',
 			// Location (Required)
 			'address': {
 				streetAddress: 'Prieto 1058',
