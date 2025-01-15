@@ -17,6 +17,14 @@ export default defineConfig({
 	theme: {
 		container: {
 			center: true
+		},
+		colors: {
+			kishindo: {
+				yellow: '#ffdb00',
+				blue: '#005aff',
+				background: '#254279'
+			}
+
 		}
 	}
 })
