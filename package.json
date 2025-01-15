@@ -14,6 +14,7 @@
 	"devDependencies": {
 		"@antfu/eslint-config": "^3.14.0",
 		"@nuxt/scripts": "0.9.5",
+		"@nuxtjs/seo": "2.0.3",
 		"@unocss/eslint-plugin": "^65.4.0",
 		"@unocss/nuxt": "^65.4.0",
 		"@unocss/transformer-variant-group": "^65.4.0",
