@@ -177,11 +177,11 @@
 					</div>
 
 					<div>
-						<h3 class="text-center text-9 text-violet-9 font-bold">
-							Reiki
+						<h3 class="text-center text-7 text-violet-9 font-bold">
+							Reiki y Flores de Bach
 						</h3>
 						<p class="text-center text-dark leading-1 italic">
-							La práctica de la energía universal.
+							La práctica de la energía universal y las esencias florales.
 						</p>
 					</div>
 				</div>
