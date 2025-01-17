@@ -9,6 +9,10 @@ export default defineConfig({
 				sans: {
 					name: 'Lato',
 					weights: [400]
+				},
+				caudex: {
+					name: 'Neuton',
+					weights: [400, 700]
 				}
 			}
 		})
