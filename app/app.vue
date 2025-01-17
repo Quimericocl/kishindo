@@ -1,7 +1,7 @@
 <template>
-	<div class="font-caudex grid min-h-screen place-items-center supports-[(min-height:100svh)]:min-h-100svh">
+	<div class="grid min-h-screen place-items-center font-caudex supports-[(min-height:100svh)]:min-h-100svh">
 		<div class="relative h-800px w-full bg-dark">
-			<div class="center-absolute absolute aspect-square h-350px">
+			<div class="absolute left-0 right-0 top-5 mx-auto aspect-square h-350px drop-shadow-2xl drop-shadow-color-dark">
 				<div class="mb-9 flex flex-col items-center">
 					<img src="assets/logos/Kishindo.png" alt="Kishindo logo" width="250">
 					<div class="text-white/80">
@@ -15,19 +15,22 @@
 				</div>
 				<div class="border border-white/20 rounded-2 p-2">
 					<p class="text-center text-white/90 italic">
-						Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex ut error harum cumque minima.
+						Desarrolla el cuerpo, la mente y el espíritu a través de las artes marciales y las terapias alternativas.
 					</p>
 				</div>
 			</div>
+
+			<!-- Background -->
+			<img src="assets/img/mawashi.jpg" alt="Forest image" class="w-full object-cover lt-lg:(h-full)">
 		</div>
 
 		<!-- Karate y Kendo -->
-		<div class="relative h-900px w-full flex overflow-hidden lt-lg:(h-auto flex-col)">
+		<div class="relative h-1000px w-full flex overflow-hidden lt-lg:(h-auto flex-col)">
 			<!-- Karate -->
 			<div class="group relative h-full flex-grow-1 flex-basis-40% overflow-hidden bg-kishindo-yellow p-5">
 				<div class="mx-auto mb-8 flex justify-center">
-					<div class="w-full flex flex-col items-center rounded-2 bg-white/30 p-5">
-						<img src="assets/logos/Karate.png" alt="Kishindo - Karate logo" width="250" class="mx-auto">
+					<div class="w-full flex flex-col items-center rounded-2 p-5">
+						<img src="assets/logos/Karate.png" alt="Kishindo - Karate logo" width="250" class="mx-auto mb-5 drop-shadow-lg drop-shadow-color-dark">
 						<h3 class="text-center text-9 text-kishindo-background font-bold">
 							Karate
 						</h3>
@@ -62,12 +65,18 @@
 					</template>
 				</div>
 			</div>
+			<!-- END Karate -->
 
+			<!-- Where and when to find us -->
 			<div class="relative flex-shrink-5 flex-grow-5 flex-basis-50% bg-dark/95 p-5 lt-lg:order-last">
 				<h4 class="mb-5 text-center text-8 text-white/80">
 					¡Ven por tu clase <span class="text-white">gratis</span>!
 				</h4>
-				<div class="mx-auto mb-10 aspect-square w-350px bg-white/10" />
+				<div class="mx-auto mb-10 aspect-square w-500px bg-white/10">
+					<a href="https://maps.app.goo.gl/oyi1CXPe96Pys1ET8" target="_blank">
+						<img src="assets/img/map.png" alt="">
+					</a>
+				</div>
 
 				<h5 class="mb-1 text-center text-white font-bold">
 					Horario de clases
@@ -122,11 +131,13 @@
 					</div>
 				</div>
 			</div>
+			<!-- END Where and when to find us -->
+
 			<!-- Kendo -->
 			<div class="group-hover h-full flex-grow-1 flex-basis-40% overflow-hidden bg-kishindo-background p-5">
 				<div class="mx-auto mb-8 flex justify-center">
-					<div class="w-full flex flex-col items-center rounded-2 bg-dark/20 p-5">
-						<img src="assets/logos/Kendo.png" alt="Kishindo - Kendo logo" width="250" class="relative z-1">
+					<div class="w-full flex flex-col items-center rounded-2 p-5">
+						<img src="assets/logos/Kendo.png" alt="Kishindo - Kendo logo" width="250" class="relative z-1 mx-auto mb-5 drop-shadow-lg drop-shadow-color-dark">
 						<h3 class="text-center text-9 text-kishindo-yellow font-bold">
 							Kendo
 						</h3>
@@ -163,9 +174,8 @@
 					</template>
 				</div>
 			</div>
+			<!-- END Kendo -->
 		</div>
-
-		<!-- <div class="h-1px w-full bg-dark" /> -->
 
 		<!-- Reiki -->
 		<div class="h-800px w-full overflow-hidden bg-pink/50 p-5">
@@ -187,9 +197,8 @@
 				</div>
 			</div>
 		</div>
+		<!-- END Reiki -->
 
-		<!-- Mapa -->
-		<!-- <div class="relative h-500px w-full flex overflow-hidden bg-dark" /> -->
 		<Footer />
 	</div>
 </template>
